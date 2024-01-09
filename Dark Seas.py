@@ -284,7 +284,7 @@ def scrap(session_token, vendor, dt):
             json.dump(data, file)
         # with open(f"{os.path.join(vendor,key)}.json", "r") as file:
         #     data = json.load(file)
-        # scrapper(data, value)
+        scrapper(data, value)
 
     file_path = "Template.xlsx"  # Replace with the path to your existing Excel file
     workbook = openpyxl.load_workbook(file_path)
